@@ -14,14 +14,10 @@ export default function Hero() {
     const type = () => {
       const current = texts[index]
       if (isDeleting) {
-        if (textRef.current) {
-          textRef.current.textContent = current.substring(0, charIndex - 1)
-        }
+        textRef.current!.textContent = current.substring(0, charIndex - 1)
         charIndex--
       } else {
-        if (textRef.current) {
-          textRef.current.textContent = current.substring(0, charIndex + 1)
-        }
+        textRef.current!.textContent = current.substring(0, charIndex + 1)
         charIndex++
       }
 
@@ -54,4 +50,3 @@ export default function Hero() {
     </section>
   )
 }
-

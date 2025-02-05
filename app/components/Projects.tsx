@@ -10,10 +10,10 @@ const projects = [
     link: "#",
   },
   {
-    title: "Personal Portfolio",
+    title: "E-Commerce website on ChillAndBake",
     description: "A sleek and modern portfolio website showcasing my web development skills.",
     technologies: ["React", "CSS Modules", "Framer Motion"],
-    image: "/portfoli'.png",
+    image: "/cakeweb.JPEG",
     link: "#",
   },
   {

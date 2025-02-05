@@ -2,27 +2,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgb(31, 20, 20);
   padding: 2rem;
 }
 
-.main {
+.contactFormContainer {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  max-width: 800px;
 }
 
-.content {
+.contactForm {
   width: 50%;
-}
-
-.title {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.contactInfo {
-  margin-top: 1rem;
 }
 
 .contactForm input,
@@ -30,21 +21,20 @@
   width: 100%;
   padding: 0.8rem;
   margin: 0.5rem 0;
-  border-radius: 5px;
-}
-
-.contactForm button {
-  padding: 0.8rem 2rem;
-  background-color: #007bff;
-  color: rgb(137, 179, 121);
-  border: none;
-  cursor: pointer;
-}
-
-.contactForm button:hover {
-  background-color: #0056b3;
 }
 
 .imageContainer {
   width: 40%;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
 }
